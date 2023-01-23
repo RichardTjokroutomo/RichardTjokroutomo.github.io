@@ -1,0 +1,17 @@
+.resumeSpan{
+    color: white;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.qrcode{
+    display: none;
+}
+
+.wechatImg:hover + .qrcode{
+    display: block;
+    color: red;
+}

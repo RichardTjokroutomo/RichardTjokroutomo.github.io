@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <title>random web</title>
+        <link rel="stylesheet" href="statics/css/bootstrapCSS/bootstrap.css">
+        <link rel="stylesheet" href="statics/css/customCSS/style.css">
+    </head>
+
+    <body class="d-flex h-100">
+        
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+            <!-- HEADER -->
+            <header class="pb-5">
+                <div>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link link-dark" aria-current="page" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link link-dark" href="#Summary">Summary</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link link-dark" href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-dark" href="#Contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <!-- MAIN CONTENT -->
+            <main class="px-3">
+
+                <!-- About -->
+                <div id="#About" class="p-5 mx-auto cover-container d-flex w-80 h-100 flex-column text-center">
+                    <h1>Hello.</h1>
+                    <p class="lead">
+                        I am Richard, a sophomore at The Chinese University of Hong Kong, Shenzhen.
+                        I am a CSE student with an interest in web development and electronics.
+                        I also like manga and anime.
+                    </p>
+                    <p class="lead">
+                    <a href="statics/files/richard resume pdf (for web) .pdf" class="btn btn-lg btn-dark" download=""><span class="resumeSpan">My resume</span></a>
+                    </p>
+                </div>
+
+
+                <!-- Summary -->
+                <div id="Summary" class="pb-5 mx-auto cover-container d-flex w-100 h-70 flex-column">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Summary</h5>
+                          <p class="card-text">
+                            So far, I've learned some techs and CS concepts that helped me in making better programs. Some of my skills are:
+                            <ul>
+                                <li>Used a handful of languages including C++, JavaScript, Python, and more.</li>
+                                <li>Familiar with multiple programming paradigms such as OOP, functional, and imperative programming</li>
+                                <li>Understanding of various data structures & algorithms including sorting, linked list, binary search tree, graph searching, etc.</li>
+                            </ul>
+
+                            <hr>
+
+                            As for languages, I am proficient in both english and bahasa indonesia, with limited working proficiency in chinese.
+
+                            <hr>
+
+                            So far, I've taken quite a handful of courses that are not major related but I believe will be helpful in my future works as an engineer.
+                            <ul>
+                                <li>MAT1001 : Calculus I</li>
+                                <li>MAT2040 : Linear algebra</li>
+                                <li>DDA2001 : Introduction to data science</li>
+                                <li>EIE2001 : Basic circuit theory</li>
+                                <li>PHY1001 : Mechanics</li>
+                                <li>CLC1201 : Basic chinese</li>
+                            </ul>
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- Projects -->
+                <!-- include openPost, smartRackAPI, and tictactoe (or mpu6050 library)-->
+                <div id="Projects" class="cover-container d-flex w-100 h-70 flex-column">
+                    <h1 class="float-md-start mb-2">Projects</h1>
+                    <p class="lead">Some projects that I made:</p>
+
+
+                    <!-- START OF DIV ROW -->
+                  
+                    <div class="row">
+                        <!-- project # 1 -->
+                        <div class="col-4">
+                          <div class="card mx-5" style="width: 18rem;">
+                            <img src="statics/images/openpost.png" class="card-img-top" alt="openPost">
+                            <div class="card-body pb-5">
+                              <h5 class="card-title">openPost</h5>
+                              <p class="card-text">
+                                A social media web app that lets user to post their comments. 
+                                Made with Node.Js, Express, HTML, Bootstrap, MongoDB.
+                                Also used some cool stuff including oAuth2.0 and short polling.
+                              </p>
+                            </div>
+                            
+                            <div class="card-body pb-5">
+                              <a href="https://github.com/RichardTjokroutomo/openPost" class="card-link link-dark">GitHub</a>
+                              <a href="https://openpost.adaptable.app/" class="card-link link-dark">Website</a>
+                            </div>
+                          </div>
+                        </div>
+
+      
+                        <!-- project # 2 -->
+                        <div class="col-4">
+                          <div class="card mx-5" style="width: 18rem;">
+                            <img src="statics//images/api.jpg" class="card-img-top" alt="smart rack API">
+                            <div class="card-body">
+                              <h5 class="card-title">smart Rack API</h5>
+                              <p class="card-text">
+                                A back end IOT group project used to connect the website and the smart rack (uses arduino), 
+                                so user can tell the smart rack to dry the clothes on the website.
+                                Used in a student project in Shanghai Jiao Tong University
+                              </p>
+                            </div>
+                            
+                            <div class="card-body pb-4">
+                              <a href="https://github.com/RichardTjokroutomo/smartRackAPI" class="card-link link-dark">GitHub</a>
+
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- project # 3 -->
+                        <div class="col-4">
+                          <div class="card mx-5" style="width: 18rem;">
+                            <img src="statics/images/tictactoe.png" class="card-img-top" alt="tic tac toe">
+                            <div class="card-body pb-5">
+                              <h5 class="card-title">Tic Tac Toe</h5>
+                              <p class="card-text">
+                                A simple website that implements tic tac toe game. Nothing special, just practice using ReactJS.
+                            </p>
+                            </div>
+                           
+                            <div class="card-body pb-4">
+                              <a href="https://github.com/RichardTjokroutomo/TicTacToe" class="card-link link-dark">GitHub</a>
+                              <a href="https://lambent-sprite-e1cd71.netlify.app/" class="card-link link-dark">Website</a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                    <!-- END OF DIV ROW -->
+                    
+                    <!-- github button -->
+                    <div class="row my-5">
+                      <div class="col-4"></div>
+                      <div class="col-4">
+                        <a class="btn btn-dark w-100" href="https://github.com/RichardTjokroutomo" role="button"><img src="statics/images/github-mark-white.png" width="20" height="20" class="mx-2 mb-1" alt="GitHub">See more projects on my GitHub!</a>
+                      </div>
+                      <div class="col-4"></div>
+                    </div>
+                </div>
+
+              
+
+              <!-- FOOTER -->
+            <div id="Contacts"class="container pb-5">
+              <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mx-0 px-0 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                  <span class="mb-3 mb-md-0 text-muted">Get in touch with me!</span>
+                </div>
+            
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                  <li class="ms-3"><a href="mailto: richard.tjokro2@gmail.com"><img src="statics/images/emailLogo.png" width="35" height="35" alt="email"></a></li>
+                  <li class="ms-3 wechatImg"><img src="statics/images/wechat.png" width="35" height="35" alt="wechat" class="wechatImg"></li>
+                 
+                  <li class="ms-3 qrcode"><img src="statics/images/wechatQRme.png" width="100" height="100" alt="wechatQR"></li>
+                </ul>
+
+                <div class="h-100">
+                 <img src="statics/images/white img.png" width="100" height="100" alt="">
+                </div>
+              </footer>
+            </div>
+            </main>
+            
+        </div>
+        <script src="statics/js/boostrapJS/bootstrap.js"></script>
+    </body>
+</html>
