@@ -17,9 +17,9 @@ a:link{
 }
 
 .hover-card{
-    transition: margin 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .hover-card:hover{
-    margin-top: -10;
+    transform: scale(0.85);
 }
