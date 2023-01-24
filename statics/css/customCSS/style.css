@@ -1,4 +1,4 @@
-.resumeSpan{
+.resume-span{
     color: white;
 }
 
@@ -14,4 +14,12 @@ a:link{
 .wechatImg:hover + .qrcode{
     display: block;
     color: red;
+}
+
+.hover-card{
+    transition: margin 0.2s ease-in-out;
+}
+
+.hover-card:hover{
+    margin-top: -10;
 }
